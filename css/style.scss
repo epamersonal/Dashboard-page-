@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$color-dark: #29313c;
+$color-dark-light:#323a45;
+$color-main:#475364;
+$color-light:#8ea4b5;
+$color-grey-light: #f4f9fb;
+$color-dark-shade:#282e37;
+$color-grey-ultralight: #e8eff1;
+$white:#ffffff;
+$green: #b2d170;
+$red: #ff5943;
+$color-grey-superlight: #f7fbfc;
+
+body {
+    margin: 0 0 0 0;
+}
+.container-fluid {
+    
+    padding: 0 0 0 0;
+}
+.logo {
+    background-color: $color-dark;
+    height: 66px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.logo .logo_img {
+    margin-top: 14px;
+    margin-left: 27px;
+}
+.logo .text_img {
+    
+    width: 96px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.main {
+    background-color: $color-dark-light;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.main_link {
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 12px 16px 12px 16px;
+    position: absolute;
+    background-color: $color-dark-shade;
+    border-radius: 4px;
+}
+.content {
+    background-color: #fff;
+    margin-left: 80px;
+    background-color: #e8eff1;
+    height: 800px;
+}
+.content h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    color: $color-main;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.content__text {
+    color: $color-light;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+.title {
+    margin-left: 30px;
+    margin-top: 24px;
+    text-align: left;
+    background-color: $white;
+    color: $color-main;
+    
+    // padding-top: 12px;
+    // padding-bottom: 12px;
+    border-radius: 3px;
+}
+.title h2 {
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 0px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.units {
+    margin-left: 30px;
+    margin-top: 1px;
+    text-align: left;
+    background-color: $white;
+    color: $color-main;
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 3px;
+}
+.corporate {
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 0px;
+}
+.fine {
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    color: $color-light;
+    margin: 0px;
+}
+.descriptive {
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    color: $color-main;
+    display: inline;
+}
+.icon_green {
+    position: absolute;
+    padding: 9px;
+    margin-top: 8px;
+    background-color: $green;
+    border-radius: 3px;
+   
+}
+.card_info {
+    
+    margin-left: 45px;
+}
+.icon-small {
+    display: inline;
+    
+}
+.arrow-down {
+    display: block;
+    padding: 9px;
+    background-color: $color-grey-light;
+    border-radius: 15px;
+}
+.icon_red {
+    position: absolute;
+    padding: 9px;
+    margin-top: 8px;
+    background-color: $red;
+    border-radius: 3px;
+   
+}
+.icon_grey {
+    
+    padding: 9px;
+    margin-top: 8px;
+    background-color: $color-light;
+    border-radius: 3px;
+    display: inline;
+}
+.info_grey {
+    display: inline;
+    font-family: 'Roboto';
+    font-size:12px;
+    color: $white;
+    background-color: $color-light;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    border-left: 1px solid $color-main;
+}
+.grey {
+    background-color: $color-light;
+    border: none;
+    color: $white;
+    font-family: "Roboto";
+    font-size: 3px;
+    margin-left: -3px;
+    height: 35px;
+    border-left: 1px solid $color-main;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+.icon_grey_ultralight {
+    position: absolute;
+    padding: 9px;
+    margin-top: 8px;
+    background-color: $color-grey-ultralight;
+    border-radius: 3px;
+   
+}
+.icon_purple {
+     padding: 10px;
+}
+.purple {
+    display: block;
+    width: 700px;
+    background-color: $red;
+    border: none;
+    color: $white;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 14px;
+    height: 35px;
+    margin-left: -4px;
+    border-radius: 3px;
+}
+.right {
+    float: right;
+    text-transform: uppercase;
+}
+.dropout {
+    background-color: $color-grey-superlight;
+    margin-left: 30px;
+    padding-top: 20px;
+    display: none;
+}
+.dropout_in {
+    height: 40px;
+    margin-bottom: 20px;
+}
+.dropout_title {
+    color: $color-main;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+}
+.dropout p {
+    font-size: 12px;
+    font-family: "Roboto";
+    color: $color-light;
+}
+
+.object {
+    margin-left: 40px;
+    background-color: $white;
+    font-family: "Roboto";
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    text-align: left;
+    margin-bottom: 0px;
+  
+}
+.object p {
+    color: $color-main;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -13px;
+}
+#object li {
+    list-style-type: none;
+    font-family: "Roboto";
+    color: $color-main;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    background-color: $white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 2px;
+}
+#object {
+    display: block;
+}
+.follow {
+    display: inline;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    border: solid 1px $color-light; 
+    border-radius: 2px;
+    background-color: $white;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.follow img{
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.follow a {
+    color: $color-main;
+    
+}
+.unfollow {
+    float: right;
+    border: none;
+    background-color: $color-grey-superlight;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    color: $color-main;
+}
